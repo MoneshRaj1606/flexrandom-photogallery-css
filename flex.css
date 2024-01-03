@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.titlebar{
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+body{
+    background-color: black ;
+    font-family: 'Domine', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+
+}
+.container div{
+    width: 200px;
+    color: aliceblue;
+    margin: 5px;
+    flex-basis: 20%;
+    
+    
+}
